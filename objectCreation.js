@@ -12,9 +12,11 @@ person2.name = 'Bob';
 person2.age = 25;
 
 // 3. Using a Constructor Function
-function Person(name, age) {
+class Person {
+  constructor(name, age) {
     this.name = name;
     this.age = age;
+  }
 }
 const person3 = new Person('Charlie', 35);
 
